@@ -1,0 +1,82 @@
+-------------------------------------------------------------------------------
+Test set: com.dnapass.training.test.TestFarmToMarketService
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 2.748 s <<< FAILURE! - in com.dnapass.training.test.TestFarmToMarketService
+testGetItemById(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+testSearchItem(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+testSaveUser(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+testAddNewItem(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+testDeleteItemDetails(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+testGetAllItems(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+testSearchEquipment(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+testGetAllEquipment(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+testGetEquipmentById(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+testFindUser(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+testDeleteEquipmentDetail(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+testGetFarmerDetails(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+
+testAddEquipment(com.dnapass.training.test.TestFarmToMarketService)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.core.configuration.SpringDocConfiguration$OpenApiResourceAdvice] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/http/HttpStatusCode
+Caused by: java.lang.ClassNotFoundException: org.springframework.http.HttpStatusCode
+

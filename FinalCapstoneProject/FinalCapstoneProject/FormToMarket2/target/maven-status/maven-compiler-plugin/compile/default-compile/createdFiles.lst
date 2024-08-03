@@ -1,0 +1,16 @@
+com\dnapass\training\entity\EquipmentDetails.class
+com\dnapass\training\repository\EquipmentRepository.class
+com\dnapass\training\repository\EquipmentUserRepository.class
+com\dnapass\training\entity\Equipment.class
+com\dnapass\training\service\UserService.class
+com\dnapass\training\entity\User.class
+com\dnapass\training\TrainingApplication.class
+com\dnapass\training\repository\ItemRepository.class
+com\dnapass\training\service\EquipmentService.class
+com\dnapass\training\controller\FarmMarketController.class
+com\dnapass\training\service\ItemService.class
+com\dnapass\training\entity\EquipmentUser.class
+com\dnapass\training\repository\UserRepository.class
+com\dnapass\training\entity\Item.class
+com\dnapass\training\entity\ItemDetails.class
+com\dnapass\training\entity\Login.class

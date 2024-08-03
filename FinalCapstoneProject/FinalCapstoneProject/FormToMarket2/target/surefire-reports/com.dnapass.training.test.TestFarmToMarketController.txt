@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.dnapass.training.test.TestFarmToMarketController
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 4.144 s <<< FAILURE! - in com.dnapass.training.test.TestFarmToMarketController
+testLogin(com.dnapass.training.test.TestFarmToMarketController)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.role"
+	at com.dnapass.training.test.TestFarmToMarketController.testLogin(TestFarmToMarketController.java:76)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.dnapass.training.test.TestFarmToMarketController.testLogin(TestFarmToMarketController.java:76)
+
+testDeleteItemDetails(com.dnapass.training.test.TestFarmToMarketController)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<204> but was:<404>
+	at com.dnapass.training.test.TestFarmToMarketController.testDeleteItemDetails(TestFarmToMarketController.java:208)
+
+testFarmerSearchEquipment(com.dnapass.training.test.TestFarmToMarketController)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.dnapass.training.test.TestFarmToMarketController.testFarmerSearchEquipment(TestFarmToMarketController.java:103)
+
+testgetAllEquipmentById(com.dnapass.training.test.TestFarmToMarketController)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.dnapass.training.test.TestFarmToMarketController.testgetAllEquipmentById(TestFarmToMarketController.java:133)
+
+testUpdateItemDetails(com.dnapass.training.test.TestFarmToMarketController)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.itemName"
+	at com.dnapass.training.test.TestFarmToMarketController.testUpdateItemDetails(TestFarmToMarketController.java:227)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.dnapass.training.test.TestFarmToMarketController.testUpdateItemDetails(TestFarmToMarketController.java:227)
+
+testDeleteEquipmentDetails(com.dnapass.training.test.TestFarmToMarketController)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<204> but was:<404>
+	at com.dnapass.training.test.TestFarmToMarketController.testDeleteEquipmentDetails(TestFarmToMarketController.java:265)
+
+testBookEquipment(com.dnapass.training.test.TestFarmToMarketController)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.dnapass.training.test.TestFarmToMarketController.testBookEquipment(TestFarmToMarketController.java:167)
+
